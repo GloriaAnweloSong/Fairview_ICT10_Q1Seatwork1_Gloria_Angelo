@@ -1,1 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q1 Seatwork 1</title>
 
+    <link rel="stylesheet" href="https://pyscript.net/releases/2025.3.1/core.css" />
+    <script type="module" src="https://pyscript.net/releases/2025.3.1/core.js"></script>
+
+    <style>
+
+        body{
+            background-color:rgb(132, 234, 236);
+        }
+
+        .design{
+            text-align:center;
+            font-weight: bold;
+            color: rgb(45, 108, 208);
+            font-size: 20px;
+            font-family: 'Courier New';
+        }
+
+    </style>
+</head>
+<body>
+
+<div class="design">
+    <br><br>
+    <div id="div1"></div>
+    <br>
+
+    <form>
+        <input type="text" id="inputnum1" placeholder="Input a number">
+        <input type="text" id="inputnum2" placeholder="Input another number">
+        <br><br>
+
+        <button type="button" py-click="add_num">Compute!</button>
+        
+        <div id="output"></div>
+
+    </form>
+
+    <script type="py" src="main.py"></script>
+</div>
+
+</body>
+</html>
